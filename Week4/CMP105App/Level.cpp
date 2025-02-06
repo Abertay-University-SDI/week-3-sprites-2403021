@@ -10,7 +10,7 @@ Level::Level(sf::RenderWindow* hwnd, Input* in)
 	// initialise game objects
 	texture.loadFromFile("gfx/Mushroom.png");
 	texture2.loadFromFile("gfx/Goomba.png");
-	texture3.loadFromFile("gfx/Beach_Ball.png");
+	texture3.loadFromFile("gfx/Bullet Kin.png");
 	texture4.loadFromFile("gfx/level1_1.png");
 	texture5.loadFromFile("gfx/icon.png");
 
@@ -30,7 +30,7 @@ Level::Level(sf::RenderWindow* hwnd, Input* in)
 
 	enemy2.setWindow(window);
 	enemy2.setTexture(&texture3);
-	enemy2.setSize(sf::Vector2f(50, 50));
+	enemy2.setSize(sf::Vector2f(60, 115));
 	enemy2.setPosition(600, 100);
 
 	cursor.setInput(input);

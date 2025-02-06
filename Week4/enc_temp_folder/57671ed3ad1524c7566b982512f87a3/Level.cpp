@@ -11,12 +11,12 @@ Level::Level(sf::RenderWindow* hwnd, Input* in)
 
 	player.setInput(input);
 	player.setTexture(&texture);
-	player.setSize(sf::Vector2f(50, 50));
+	player.setSize(sf::Vector2f(100, 100));
 	player.setPosition(100, 100);
 
 	enemy1.setWindow(window);
 	enemy1.setTexture(&texture2);
-	enemy1.setSize(sf::Vector2f(50, 50));
+	enemy1.setSize(sf::Vector2f(100, 100));
 	enemy1.setPosition(300, 100);
 }
 

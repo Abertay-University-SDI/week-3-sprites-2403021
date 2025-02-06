@@ -5,6 +5,7 @@
 #include "Framework/Input.h"
 #include "Framework/GameObject.h"
 #include "Player.h"
+#include "Cursor.h"
 #include "Background.h"
 #include "Enemy.h"
 #include <string.h>
@@ -31,5 +32,7 @@ private:
 	Enemy enemy2;
 	sf::Texture texture4;
 	Background level1;
+	Cursor cursor;
+	sf::Texture texture5;
 };
 
